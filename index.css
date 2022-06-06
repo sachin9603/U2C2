@@ -1,0 +1,75 @@
+/* Fill CSS here */
+div{
+    display:flex;
+    justify-content: space-around;
+}
+form{
+    margin:0 auto;
+    margin-top :50px; 
+    width:30%;
+    box-shadow:rgba(149,157,166,0.2)0px 8px 24px;
+    padding:30px
+}
+label{
+    font-size:20px;
+    font-weight:bold;
+}
+table{
+    font-family:Arial, Helvetica, sans-serif;
+    border-collapseLcollapse;
+    width: 50%;
+    margin:auto;
+    margin-top :50px;
+    text-align: center;
+}
+table td,table th{
+    border: 1px solid #ddd;
+    padding:8px;
+    text-align:center;
+
+}
+table tr:nth-child(even){
+    background-color:rgb(86, 86, 235);
+}
+table th{
+    padding-top: 12px;
+    padding-bottom:12px;
+    text-align: left;
+    background-color: blueviolet;
+    color:white;
+    text-align: center;
+}
+*{
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    font-size:50px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    color: cadetblue;
+    text-decoration: underline;
+}
+input[type="submit"]{
+    color: white;
+    padding:12px 20px;
+    border:none;
+    border-radius: 15px;
+    cursor:pointer;
+    width:100%;
+    font-size: 20px;
+    background-color: blueviolet;
+}
+input[type="text"],input[type="number"],select,text area{
+
+    width:100%;
+    padding:12px;
+    border :1px solid grey;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 7px;
+    margin-bottom: 15px;
+    resize: vertical;
+
+
+}
